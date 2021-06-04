@@ -100,8 +100,6 @@ class Choices{
       this.status.refreshStatus(Result.whoWin(pChoice, comChoice));
       this.onTerminal.call(this, this.status.getStatus());
       this.winBoard(Result.whoWin(pChoice, comChoice));
-      // console.log(this.status.resetStatus());
-      // this.onTerminal.call(this, this.status.resetStatus());
     }
     //Scores Showed Up on Terminal
     onTerminal(score){
