@@ -106,7 +106,6 @@ class Choices{
     //Scores Showed Up on Terminal
     onTerminal(score){
       console.log(`Player Score: ${score.player} VS COM Score: ${score.com}`);
-      console.log('-------------------------------------------------------------');
     }
     //Winner Status Board
     winBoard(winner){
